@@ -23,7 +23,7 @@ describe Solver do
     end
 
     it 'Factorial method of -1 raises and exception' do
-      expect(@solver.factorial(-1)).to raise_error('Invalid method for negative values')
+      expect{@solver.factorial(-1)}.to raise_error('Invalid method for negative values')
     end
   end
 
