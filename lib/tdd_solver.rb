@@ -1,6 +1,6 @@
-require_relative 'ruby_template/version'
+require_relative 'tdd_solver/version'
 
-module RubyTemplate
+module TDDSolver
   class Error < StandardError; end
   # Your code goes here...
 end

@@ -1,43 +1,25 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TDD Solver
 
-> Description the project.
+> This repository contains a TDD application that solves three common coding challenges using Ruby and RSPec: Factorial, Reverse String, and FizzBuzz.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- RSPec
+- Ruby
 
-## Live Demo (if available)
+## Prerequisites
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
+- Ruby 3.1.2
 ### Setup
 
-### Install
-
-### Usage
-
+    git clone https://github.com/indigodavid/tdd_solver.git
+    cd tdd_solver
 ### Run tests
 
-### Deployment
-
-
-
+    rspec --format documentation .
 ## Authors
 
 👤 **David Vera**
@@ -46,11 +28,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [![Twitter Badge](https://img.shields.io/badge/-indigo1987-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/indigo1987)
 - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-davidveracastillo-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://linkedin.com/in/david-vera-castillo-001b5756/)
 
-👤 **Author 2**
+👤 **Julio Gagliardi**
 
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-author2-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/author2)
-- Twitter: [![Twitter Badge](https://img.shields.io/badge/-author2-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/author2)
-- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-author2-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://linkedin.com/in/author2/)
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-BregornOriginal-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/BregornOriginal)
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-Bregorn-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/Bregorn)
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-juliogagliardi-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/julio-gagliardi/)
 
 ## 🤝 Contributing
 
@@ -64,12 +46,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- My supportive family 😊
+- Our supportive families 😊
 - Microverse
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
