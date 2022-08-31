@@ -21,5 +21,11 @@ describe Solver do
     it 'Factorial method of 5 is equal to 120' do
       expect(@solver.factorial(5)).to be == 120
     end
+
+    it 'Factorial method of -1 raises and exception' do
+      expect(@solver.factorial(-1)).to raise_error('Invalid method for negative values')
+    end
   end
+
+  
 end
