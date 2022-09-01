@@ -26,4 +26,18 @@ describe Solver do
       expect { @solver.factorial(-1) }.to raise_error('Invalid method for negative values')
     end
   end
+
+  context 'When reverse method is run' do
+    before :each do
+      @solver = Solver.new
+    end
+
+    it 'Reverse method of "hello" is "olleh"' do
+      expect(@solver.reverse('hello')).to eq("olleh")
+    end
+
+    it 'Reverse method of "Julio" is "oiluJ"' do
+      expect(@solver.reverse('Julio')).to eq("oiluJ")
+    end
+  end
 end
