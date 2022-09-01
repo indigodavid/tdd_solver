@@ -33,11 +33,11 @@ describe Solver do
     end
 
     it 'Reverse method of "hello" is "olleh"' do
-      expect(@solver.reverse('hello')).to eq("olleh")
+      expect(@solver.reverse('hello')).to eq('olleh')
     end
 
     it 'Reverse method of "Julio" is "oiluJ"' do
-      expect(@solver.reverse('Julio')).to eq("oiluJ")
+      expect(@solver.reverse('Julio')).to eq('oiluJ')
     end
   end
 
@@ -47,35 +47,35 @@ describe Solver do
     end
 
     it 'Fizzbuzz method of 1 should return "1"' do
-      expect(@solver.fizzbuzz(1)).to eq("1")
+      expect(@solver.fizzbuzz(1)).to eq('1')
     end
 
     it 'Fizzbuzz method of 3 should return "fizz"' do
-      expect(@solver.fizzbuzz(3)).to eq("fizz")
+      expect(@solver.fizzbuzz(3)).to eq('fizz')
     end
 
     it 'Fizzbuzz method of 5 should return "buzz"' do
-      expect(@solver.fizzbuzz(5)).to eq("buzz")
+      expect(@solver.fizzbuzz(5)).to eq('buzz')
     end
 
     it 'Fizzbuzz method of 15 should return "fizzbuzz"' do
-      expect(@solver.fizzbuzz(15)).to eq("fizzbuzz")
+      expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
 
     it 'Fizzbuzz method of 20 should return "buzz"' do
-      expect(@solver.fizzbuzz(20)).to eq("buzz")
+      expect(@solver.fizzbuzz(20)).to eq('buzz')
     end
 
     it 'Fizzbuzz method of 27 should return "fizz"' do
-      expect(@solver.fizzbuzz(27)).to eq("fizz")
+      expect(@solver.fizzbuzz(27)).to eq('fizz')
     end
 
     it 'Fizzbuzz method of 29 should return "29"' do
-      expect(@solver.fizzbuzz(29)).to eq("29")
+      expect(@solver.fizzbuzz(29)).to eq('29')
     end
 
     it 'Fizzbuzz method of 45 should return "buzz"' do
-      expect(@solver.fizzbuzz(45)).to eq("fizzbuzz")
+      expect(@solver.fizzbuzz(45)).to eq('fizzbuzz')
     end
   end
 end

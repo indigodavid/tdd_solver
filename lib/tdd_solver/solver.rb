@@ -7,18 +7,19 @@ class Solver
   end
 
   def reverse(string)
-    spread_string = string.split("")
+    spread_string = string.chars
     reverse_string = []
     spread_string.each do |letter|
       reverse_string.unshift(letter)
     end
-    reverse_string.join("")
+    reverse_string.join
   end
 
   def fizzbuzz(number)
-    return "fizzbuzz" if (number % 3 == 0 && number % 5 == 0)
-    return "fizz" if (number % 3 == 0)
-    return "buzz" if (number % 5 == 0)
+    return 'fizzbuzz' if (number % 3).zero? && (number % 5).zero?
+    return 'fizz' if (number % 3).zero?
+    return 'buzz' if (number % 5).zero?
+
     number.to_s
   end
 end
