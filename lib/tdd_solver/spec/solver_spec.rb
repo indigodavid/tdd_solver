@@ -63,7 +63,7 @@ describe Solver do
     end
 
     it 'Fizzbuzz method of 20 should return "buzz"' do
-      expect(@solver.fizzbuzz(20)).to eq("fizz")
+      expect(@solver.fizzbuzz(20)).to eq("buzz")
     end
 
     it 'Fizzbuzz method of 27 should return "fizz"' do
@@ -77,7 +77,5 @@ describe Solver do
     it 'Fizzbuzz method of 45 should return "buzz"' do
       expect(@solver.fizzbuzz(45)).to eq("fizzbuzz")
     end
-
-
   end
 end
